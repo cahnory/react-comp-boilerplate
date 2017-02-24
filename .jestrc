@@ -1,0 +1,5 @@
+{
+  "moduleNameMapper": {
+    "\\.css$": "identity-obj-proxy"
+  }
+}

@@ -1,0 +1,9 @@
+[options]
+
+[ignore]
+<PROJECT_ROOT>/dist/.*
+<PROJECT_ROOT>/.*/__tests__/.*
+<PROJECT_ROOT>/.*\.test\.js
+<PROJECT_ROOT>/.*\.spec\.js
+
+[libs]

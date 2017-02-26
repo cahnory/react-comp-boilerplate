@@ -1,8 +1,4 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
-import StaticSiteGeneratorPlugin from 'static-site-generator-webpack-plugin'
-
-// CONST
-const PROD = 'production' === process.env.NODE_ENV
 
 export default [
   {
@@ -47,5 +43,5 @@ export default [
 
     //🍬MISC
     devtool: 'source-map',
-  }
+  },
 ]
